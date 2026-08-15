@@ -1,0 +1,14 @@
+:root {
+  /* Mínimo de 3 cores para uma paleta harmoniosa */
+  --cor-primaria:   #5fabf3; /* Sumi (Escuro) */
+  --cor-secundaria: #ff58db; /* Índigo */
+  --cor-destaque:   #e6ff5c; /* Destaque Ouro */
+  --cor-suave:      #ffffff; /* Rosa Sakura */
+}
+
+/* Aplicando no layout */
+.card {
+  background-color: var(--cor-primaria);
+  border: 2px solid var(--cor-destaque);
+  color: var(--cor-suave);
+}
