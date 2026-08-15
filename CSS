@@ -1,14 +1,73 @@
-:root {
-  /* Mínimo de 3 cores para uma paleta harmoniosa */
-  --cor-primaria:   #5fabf3; /* Sumi (Escuro) */
-  --cor-secundaria: #ff58db; /* Índigo */
-  --cor-destaque:   #e6ff5c; /* Destaque Ouro */
-  --cor-suave:      #ffffff; /* Rosa Sakura */
+/* Paleta de cores claras */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfcf7; /* fundo claro */
+  color: #15130f; /* texto escuro */
+  line-height: 1.6;
 }
 
-/* Aplicando no layout */
-.card {
-  background-color: var(--cor-primaria);
-  border: 2px solid var(--cor-destaque);
-  color: var(--cor-suave);
+/* Cabeçalho */
+header {
+  background: #fff8f5; /* tom claro suave */
+  padding: 20px;
+  text-align: center;
+  color: #e5b3ba; /* rosa sakura */
+  border-bottom: 2px solid #bd9457; /* dourado kintsugi */
+}
+
+/* Navegação */
+nav {
+  background: #35566e; /* azul índigo */
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: #fdfcf7; /* claro sobre azul */
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #bd9457; /* dourado kintsugi */
+}
+
+/* Seções */
+section {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+section h2 {
+  color: #e5b3ba; /* rosa sakura */
+  margin-bottom: 15px;
+}
+section p {
+  color: #333; /* texto escuro */
+}
+
+/* Galeria */
+#galeria {
+  text-align: center;
+  margin: 40px auto;
+}
+#galeria img {
+  display: inline-block;
+  margin: 10px;
+  max-width: 45%;
+  border: 3px solid #bd9457; /* dourado kintsugi */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+#galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+  background: #fff8f5;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 2px solid #bd9457;
 }
